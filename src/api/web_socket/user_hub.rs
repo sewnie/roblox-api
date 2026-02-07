@@ -1,5 +1,5 @@
 use futures_util::{SinkExt, StreamExt};
-use reqwest_websocket::{CloseCode, Message, RequestBuilderExt, WebSocket};
+use reqwest_websocket::{CloseCode, Message, Upgrade, WebSocket};
 use serde::{Deserialize, Serialize};
 use serde_repr::{Deserialize_repr, Serialize_repr};
 
