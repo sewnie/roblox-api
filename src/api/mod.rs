@@ -6,6 +6,7 @@ pub mod auth_token_service;
 pub mod avatar;
 pub mod badges;
 pub mod challenge;
+pub mod clientsettings;
 pub mod data;
 pub mod develop;
 pub mod economy;
